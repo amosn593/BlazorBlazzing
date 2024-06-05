@@ -7,7 +7,7 @@ namespace BlazorBlazzing.Controllers;
 
 [Route("specials")]
 [ApiController]
-public class SpecialsController : Controller
+public class SpecialsController : ControllerBase
 {
     private readonly PizzaStoreContext _db;
 
